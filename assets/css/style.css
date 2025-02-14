@@ -3,7 +3,7 @@
     font-size: 24px;
     font-weight: 400;
     color: #ffffff; /* Color blanco */
-    font-family: 'Georgia', serif; /* Cambia la fuente */
+    font-family: 'Barlow', serif; /* Cambia la fuente */
     line-height: 1.6;
 }
 
@@ -11,7 +11,7 @@
     font-size: 22px;
     font-weight: 500;
     color: #ffffff; /* Color blanco */
-    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    font-family: 'Barlow', sans-serif; /* Cambia la fuente */
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
