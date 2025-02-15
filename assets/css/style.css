@@ -16,3 +16,36 @@
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #464646;
+    cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none; /* Oculta el checkbox nativo */
+}
+
+.custom-checkbox .checkmark {
+    display: inline-block;
+    width: 16px; /* Tamaño del checkbox personalizado */
+    height: 16px; /* Tamaño del checkbox personalizado */
+    border: 2px solid #464646; /* Borde del checkbox */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 8px;
+    position: relative;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #464646;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg); /* Crea un efecto de "check" */
+}
